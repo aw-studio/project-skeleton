@@ -2,5 +2,6 @@
 
 return [
     'home' => 'home',
-    'datapolicy' => 'datapolicy'
+    'datapolicy' => 'datapolicy',
+    'imprint' => 'imprint'
 ];
