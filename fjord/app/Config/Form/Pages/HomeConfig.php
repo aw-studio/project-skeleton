@@ -48,10 +48,9 @@ class HomeConfig extends FormConfig
         $form->card(function ($form) {
 
             $form->input('title')
-                ->translatable()
-                ->title('Title');
-
-            $form->markdown(\Illuminate\Support\Facades\File::get(fjord_path('resources/docs/form-loader-example.md')));
+                ->title('title');
         });
+
+        // $form->meta();
     }
 }

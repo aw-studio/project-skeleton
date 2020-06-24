@@ -46,14 +46,15 @@ class NavigationConfig extends Config
         $nav->section([
             $nav->title('Pages'),
 
-            $nav->group([
-                'title' => 'Pages',
-                'icon' => fa('file'),
-            ], [
-                $nav->preset('form.pages.home', [
-                    'icon' => fa('home'),
-                ]),
-            ])
+            $nav->preset('form.pages.home', [
+                'icon' => fa('home'),
+            ]),
+            $nav->preset('form.pages.datapolicy', [
+                'icon' => fa('user-shield'),
+            ]),
+            $nav->preset('form.pages.imprint', [
+                'icon' => fa('file-contract'),
+            ]),
         ]);
     }
 }

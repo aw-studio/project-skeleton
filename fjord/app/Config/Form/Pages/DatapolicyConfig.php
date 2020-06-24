@@ -45,12 +45,12 @@ class DatapolicyConfig extends FormConfig
      */
     public function show(CrudShow $form)
     {
-        $form->card(function($form) {
+        $form->card(function ($form) {
 
-            $form->input('text')
-                ->title('text');
-
-            // ...
+            $form->input('title')
+                ->title('title');
         });
+
+        // $form->meta();
     }
 }
