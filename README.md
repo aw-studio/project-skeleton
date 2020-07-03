@@ -17,3 +17,11 @@ Create a new project using composer. The following example will create a project
 ```shell
 composer create-project --prefer-dist aw-studio/project-skeleton blog
 ```
+
+## Testing
+
+Run tests via composer:
+
+```shell
+composer test
+
