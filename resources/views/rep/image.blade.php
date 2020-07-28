@@ -1,0 +1,1 @@
+<x-fj-image :image="$rep->image"/>

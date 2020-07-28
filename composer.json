@@ -9,8 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
-        "aw-studio/fjord": "^2.3",
-        "aw-studio/fjord-ui-kit": "^0.0.1",
+        "aw-studio/fjord": "dev-master",
+        "aw-studio/fjord-ui-kit": "dev-master",
+        "aw-studio/fjord-pages": "dev-master",
         "aw-studio/localize": "^0.3.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",

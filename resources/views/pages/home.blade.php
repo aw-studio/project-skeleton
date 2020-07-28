@@ -1,5 +1,9 @@
 @extends('app')
 
 @section('content')
-    {{ $data }}
+    {{-- {{ $data }} --}}
+@endsection
+
+@section('meta')
+    {{-- ... --}}
 @endsection
