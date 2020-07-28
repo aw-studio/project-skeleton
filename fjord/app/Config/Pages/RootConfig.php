@@ -56,12 +56,7 @@ class RootConfig extends PagesConfig
      */
     public function repeatables(Repeatables $rep)
     {
-        $rep->add('text', function ($form, $preview) {
-            $preview->col('text')->stripHtml()->maxChars('50');
-
-            $form->wysiwyg('text')
-                ->title('Text')
-                ->translatable($this->translatable());
-        });
+        $rep->text();
+        $rep->image();
     }
 }
