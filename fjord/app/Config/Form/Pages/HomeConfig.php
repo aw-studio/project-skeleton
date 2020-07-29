@@ -46,7 +46,7 @@ class HomeConfig extends FormConfig
     public function show(CrudShow $form)
     {
         $form->card(function ($form) {
-            $form->input('h1')->title('Title');
+            $form->input('h1')->title('H1');
         });
 
         $form->meta();

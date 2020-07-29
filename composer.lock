@@ -143,12 +143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/laravel-content-administration.git",
-                "reference": "b083278506842a2979d021f1324f294294e36c54"
+                "reference": "99374eb518629b9abb23976256e5ce5d993fcbd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/laravel-content-administration/zipball/b083278506842a2979d021f1324f294294e36c54",
-                "reference": "b083278506842a2979d021f1324f294294e36c54",
+                "url": "https://api.github.com/repos/aw-studio/laravel-content-administration/zipball/99374eb518629b9abb23976256e5ce5d993fcbd5",
+                "reference": "99374eb518629b9abb23976256e5ce5d993fcbd5",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 }
             ],
             "description": "Laravel Content-Administration",
-            "time": "2020-07-28T14:40:02+00:00"
+            "time": "2020-07-29T09:30:24+00:00"
         },
         {
             "name": "aw-studio/fjord-pages",
@@ -249,12 +249,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/fjord-ui-kit.git",
-                "reference": "5bf77d688f6749294b6d4dd2bb0f2e4ad3f7252b"
+                "reference": "076e3abc1f440fa34e34b7f2654001afe429aa34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/fjord-ui-kit/zipball/5bf77d688f6749294b6d4dd2bb0f2e4ad3f7252b",
-                "reference": "5bf77d688f6749294b6d4dd2bb0f2e4ad3f7252b",
+                "url": "https://api.github.com/repos/aw-studio/fjord-ui-kit/zipball/076e3abc1f440fa34e34b7f2654001afe429aa34",
+                "reference": "076e3abc1f440fa34e34b7f2654001afe429aa34",
                 "shasum": ""
             },
             "require": {
@@ -287,7 +287,7 @@
                     "email": "lennart.carbe@gmail.com"
                 }
             ],
-            "time": "2020-07-29T12:26:12+00:00"
+            "time": "2020-07-29T13:47:47+00:00"
         },
         {
             "name": "aw-studio/localize",

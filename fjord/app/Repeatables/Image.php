@@ -12,8 +12,8 @@ class Image
             $this->add('image', function ($form, $preview) {
                 //$preview->col('{text}')->stripHtml()->maxChars(50);
 
-                $form->image('image')->maxFiles(1)->title('Image');
-            })->view('rep.text');
+                $form->image('image')->maxFiles(1)->title('Image')->expand();
+            })->view('rep.image');
         });
     }
 }

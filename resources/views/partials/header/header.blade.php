@@ -1,4 +1,4 @@
-<header class="py-20">
+<header>
     <div class="container">
         <x-nav-main />
     </div>

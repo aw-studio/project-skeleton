@@ -3,7 +3,9 @@
 @section('content')
 
     <div class="container">
-        <h1>{{ $data->h1 }}</h1>
+        <div class="_content">
+            <h1>{{ $data->h1 }}</h1>
+        </div>
     </div>
 
 @endsection

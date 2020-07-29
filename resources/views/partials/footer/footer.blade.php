@@ -1,4 +1,4 @@
-<footer class="py-20">
+<footer>
     <div class="container">
         <x-nav-meta />
     </div>

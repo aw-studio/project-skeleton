@@ -1,1 +1,3 @@
-{!! $rep->text !!}
+<section>
+    {!! $rep->text !!}
+</section>

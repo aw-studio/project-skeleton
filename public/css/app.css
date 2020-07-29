@@ -8259,6 +8259,27 @@ video {
   transition-delay: 1000ms;
 }
 
+/*
+Put webfont @include or @font-face here
+*/
+
+._content h1,
+._content .h1 {
+  font-size: 42px;
+  line-height: 48px;
+}
+
+header,
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

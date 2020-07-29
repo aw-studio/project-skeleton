@@ -58,5 +58,6 @@ class RootConfig extends PagesConfig
     {
         $rep->text();
         $rep->image();
+        $rep->image_text();
     }
 }
