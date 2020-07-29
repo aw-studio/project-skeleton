@@ -20,9 +20,11 @@
         @yield('content')
     </main>
 
+    @include('partials.footer.footer')
+
     {{-- Scripts --}}
     <script src="{{asset('js/app.js')}}?v={{filemtime('js/app.js')}}"></script>
     <x-scripts/>
-    
+
 </body>
 </html>

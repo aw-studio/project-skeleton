@@ -249,12 +249,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/fjord-ui-kit.git",
-                "reference": "de012dcc297b86535693e379f5f6ade0beb56518"
+                "reference": "5bf77d688f6749294b6d4dd2bb0f2e4ad3f7252b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/fjord-ui-kit/zipball/de012dcc297b86535693e379f5f6ade0beb56518",
-                "reference": "de012dcc297b86535693e379f5f6ade0beb56518",
+                "url": "https://api.github.com/repos/aw-studio/fjord-ui-kit/zipball/5bf77d688f6749294b6d4dd2bb0f2e4ad3f7252b",
+                "reference": "5bf77d688f6749294b6d4dd2bb0f2e4ad3f7252b",
                 "shasum": ""
             },
             "require": {
@@ -287,7 +287,7 @@
                     "email": "lennart.carbe@gmail.com"
                 }
             ],
-            "time": "2020-07-28T14:19:53+00:00"
+            "time": "2020-07-29T12:26:12+00:00"
         },
         {
             "name": "aw-studio/localize",

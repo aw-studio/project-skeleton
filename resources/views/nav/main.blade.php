@@ -1,3 +1,1 @@
-<nav>
-    <x-fj-nav-list :list="$nav"/>
-</nav>
+<x-fj-nav-list :list="$nav" layout="horizontal" dropdown />
