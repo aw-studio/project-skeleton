@@ -143,12 +143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/laravel-content-administration.git",
-                "reference": "0197bdce242c84d2abc8eeb0ca52d6d6b66bb7da"
+                "reference": "b083278506842a2979d021f1324f294294e36c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/laravel-content-administration/zipball/0197bdce242c84d2abc8eeb0ca52d6d6b66bb7da",
-                "reference": "0197bdce242c84d2abc8eeb0ca52d6d6b66bb7da",
+                "url": "https://api.github.com/repos/aw-studio/laravel-content-administration/zipball/b083278506842a2979d021f1324f294294e36c54",
+                "reference": "b083278506842a2979d021f1324f294294e36c54",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 }
             ],
             "description": "Laravel Content-Administration",
-            "time": "2020-07-28T14:05:38+00:00"
+            "time": "2020-07-28T14:40:02+00:00"
         },
         {
             "name": "aw-studio/fjord-pages",

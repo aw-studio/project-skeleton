@@ -7,20 +7,22 @@
 
     @yield('meta')
     
+    {{-- Styles --}}
     <x-styles/>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}?v={{filemtime('css/app.css')}}">
 
-    <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-
 
     @include('partials.header.header')
 
     <main>
         @yield('content')
     </main>
-    
+
+    {{-- Scripts --}}
+    <script src="{{asset('js/app.js')}}?v={{filemtime('js/app.js')}}"></script>
     <x-scripts/>
-    <script src="/js/app.js"></script>
+    
 </body>
 </html>
