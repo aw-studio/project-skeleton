@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b76035479940429a119b8a07ddaf517b",
+    "content-hash": "d0611fd0b8aee344597d6c0a8f5d7601",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -142,12 +142,12 @@
             "version": "v2.3.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aw-studio/fjord.git",
+                "url": "https://github.com/aw-studio/laravel-content-administration.git",
                 "reference": "9a1923105996d7e1cceef6eacdfbdd4d7ed13438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/fjord/zipball/9a1923105996d7e1cceef6eacdfbdd4d7ed13438",
+                "url": "https://api.github.com/repos/aw-studio/laravel-content-administration/zipball/9a1923105996d7e1cceef6eacdfbdd4d7ed13438",
                 "reference": "9a1923105996d7e1cceef6eacdfbdd4d7ed13438",
                 "shasum": ""
             },
@@ -393,6 +393,48 @@
                 }
             ],
             "time": "2020-04-15T15:59:35+00:00"
+        },
+        {
+            "name": "caouecs/laravel-lang",
+            "version": "7.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caouecs/Laravel-lang.git",
+                "reference": "fe2872f7c2dd19afb11d83443a81ac9e8e4cb2b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/fe2872f7c2dd19afb11d83443a81ac9e8e4cb2b8",
+                "reference": "fe2872f7c2dd19afb11d83443a81ac9e8e4cb2b8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "suggest": {
+                "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project",
+                "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                "overtrue/laravel-lang": "Command to add languages in your project"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caouecs",
+                    "email": "caouecs@caouecs.net"
+                }
+            ],
+            "description": "Languages for Laravel",
+            "keywords": [
+                "lang",
+                "languages",
+                "laravel",
+                "lpm"
+            ],
+            "time": "2020-07-14T08:27:14+00:00"
         },
         {
             "name": "cbl/blade-script",

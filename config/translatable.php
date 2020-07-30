@@ -12,7 +12,7 @@ return [
     */
     'locales' => [
         'en',
-        'de'
+        'de',
     ],
 
     /*
@@ -33,7 +33,8 @@ return [
     |--------------------------------------------------------------------------
     |
     | As a default locale, Translatable takes the locale of Laravel's
-    | translator. If for some reason you want to override this,
+    | translator. If for some reason you want to override this
+        'es',,
     | you can specify what default should be used here.
     | If you set a value here it will only use the current config value
     | and never fallback to the translator one.
