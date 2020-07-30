@@ -14,7 +14,6 @@ return [
 
     'route_prefix' => 'admin',
 
-
     /*
     |--------------------------------------------------------------------------
     | Fjord Resource-Path
@@ -26,22 +25,7 @@ return [
     |
     */
 
-
     'resource_path' => 'fjord',
-
-    /*
-    |--------------------------------------------------------------------------
-    | Fjord Navigation-Path
-    |--------------------------------------------------------------------------
-    |
-    | Set the path in the fjord-resource-directory in which the fjord
-    | navigations are stored.
-    |
-    | default: resources/fjord/navigation
-    |
-    */
-
-    'navigation_path' => 'navigation',
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +48,7 @@ return [
     */
 
     'login' => [
-        'username' => true
+        'username' => true,
     ],
 
     /*
@@ -95,12 +79,11 @@ return [
 
         'locales' => [
             'en',
-            'de'
+            'de',
         ],
 
         'fallback_locale' => 'en',
     ],
-
 
     /*
     |--------------------------------------------------------------------------
@@ -116,12 +99,11 @@ return [
 
     'assets' => [
         // Set path to the app.js file.
-        'js' => null,
+        'js'  => '/fjord/js/app.js',
         'css' => [
             // Put path to css files that should be included here...
         ],
     ],
-
 
     /*
     |--------------------------------------------------------------------------
@@ -142,33 +124,9 @@ return [
             'sm' => [300, 300, 8],
             'md' => [500, 500, 3],
             'lg' => [900, 900, 2],
-            'xl' => [1400, 1400, 1]
-        ]
-    ],
-
-
-    /*
-    |--------------------------------------------------------------------------
-    | Fjord Forms
-    |--------------------------------------------------------------------------
-    |
-    | You may add as many form-types as you like to the already existing 'pages'
-    | and 'settings' forms.
-    |
-    */
-
-    'forms' => [
-        'pages' => [
-            // Should Pages be translatable by default.
-            'translatable' => true,
-            'route_prefix' => 'pages'
+            'xl' => [1400, 1400, 1],
         ],
-        'settings' => [
-            'translatable' => false,
-        ],
-        'collections' => []
     ],
-
 
     /*
     |--------------------------------------------------------------------------
@@ -182,18 +140,8 @@ return [
     'crud' => [
         'preview' => [
             // devices: mobile / tablet / desktop
-            'default_device' => 'desktop'
-        ]
+            'default_device' => 'desktop',
+        ],
     ],
 
-
-    /*
-    |--------------------------------------------------------------------------
-    | Roles & Permissions
-    |--------------------------------------------------------------------------
-    |
-    |
-    */
-
-    'roles_permissions' => true
 ];

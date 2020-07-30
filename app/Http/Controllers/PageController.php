@@ -12,18 +12,4 @@ class PageController
 
         return view('pages.home')->withData($data);
     }
-
-    public function imprint()
-    {
-        $data = Form::load('pages', 'imprint');
-
-        return view('pages.imprint')->withData($data);
-    }
-
-    public function datapolicy()
-    {
-        $data = Form::load('pages', 'datapolicy');
-
-        return view('pages.datapolicy')->withData($data);
-    }
 }

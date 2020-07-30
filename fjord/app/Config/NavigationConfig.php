@@ -10,7 +10,7 @@ class NavigationConfig extends Config
     /**
      * Topbar navigation entries.
      *
-     * @param \Fjord\Application\Navigation\Navigation $nav
+     * @param  \Fjord\Application\Navigation\Navigation $nav
      * @return void
      */
     public function topbar(Navigation $nav)
@@ -23,38 +23,38 @@ class NavigationConfig extends Config
             $nav->title(__f('fj.user_administration')),
 
             $nav->preset('user.user', [
-                'icon' => fa('users')
+                'icon' => fa('users'),
             ]),
-            $nav->preset('permissions')
+            $nav->preset('permissions'),
         ]);
 
         $nav->section([
             $nav->preset('form.collections.settings', [
-                'icon' => fa('cog')
-            ])
+                'icon' => fa('cog'),
+            ]),
         ]);
     }
 
     /**
      * Main navigation entries.
      *
-     * @param \Fjord\Application\Navigation\Navigation $nav
+     * @param  \Fjord\Application\Navigation\Navigation $nav
      * @return void
      */
     public function main(Navigation $nav)
     {
         $nav->section([
-            $nav->title('Pages'),
+            $nav->title('Seiten'),
 
-            $nav->preset('form.pages.home', [
-                'icon' => fa('home'),
-            ]),
-            $nav->preset('form.pages.datapolicy', [
-                'icon' => fa('user-shield'),
-            ]),
-            $nav->preset('form.pages.imprint', [
-                'icon' => fa('file-contract'),
-            ]),
+            $nav->preset('form.pages.home', ['icon' => fa('home')]),
+            $nav->preset('pages.root', ['icon' => fa('list')]),
+        ]);
+
+        $nav->section([
+            $nav->title('Navigation'),
+
+            $nav->preset('form.navigations.main_navigation', ['icon' => fa('project-diagram')]),
+            $nav->preset('form.navigations.meta_navigation', ['icon' => fa('paperclip')]),
         ]);
     }
 }

@@ -21,5 +21,6 @@ class Kernel extends FjordKernel
     public $providers = [
         Providers\LocalizationServiceProvider::class,
         Providers\FjordServiceProvider::class,
+        Providers\RouteFieldServiceProvider::class,
     ];
 }
