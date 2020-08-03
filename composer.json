@@ -12,7 +12,6 @@
         "aw-studio/fjord": "dev-master",
         "aw-studio/fjord-ui-kit": "dev-master",
         "aw-studio/fjord-pages": "dev-master",
-        "aw-studio/localize": "^0.3.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3",

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container">
+    <div>
         <div class="_content">
             <h1>{{ $data->h1 }}</h1>
         </div>
@@ -11,5 +11,5 @@
 @endsection
 
 @section('meta')
-    <x-fj-meta-tags :metaTitle="$data->meta_title" :metaDescription="$data->meta_description" :metaKeywords="$data->meta_keywords" />
+    <x-fj-meta-tags :title="$data->meta_title" :description="$data->meta_description" :keywords="$data->meta_keywords" />
 @endsection

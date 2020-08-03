@@ -16,12 +16,22 @@ class NavMain extends Component
     public $nav;
 
     /**
+     * Wether the navigation layout should be vertical or horizontal.
+     *
+     * @var string
+     */
+    public $layout;
+
+    /**
      * Create a new component instance.
      *
+     * @param  bool $vertical
      * @return void
      */
-    public function __construct()
+    public function __construct($vertical = false)
     {
+        $this->layout = $vertical ? 'vertical' : 'horizontal';
+
         $this->nav = Form::load('navigations', 'main_navigation')->nav;
     }
 
