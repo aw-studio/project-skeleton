@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateFormFieldsTable extends Migration
 {
@@ -16,6 +16,8 @@ class CreateFormFieldsTable extends Migration
         Schema::create('form_fields', function (Blueprint $table) {
             $table->bigIncrements('id');
 
+            $table->string('config_type');
+            $table->string('form_type')->nullable();
             $table->string('collection')->nullable();
             $table->string('form_name')->nullable();
 

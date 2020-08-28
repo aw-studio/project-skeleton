@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateFormBlocksTable extends Migration
 {
@@ -18,6 +18,8 @@ class CreateFormBlocksTable extends Migration
 
             $table->string('model_type')->nullable();
             $table->bigInteger('model_id')->nullable();
+            $table->string('config_type');
+            $table->string('form_type')->nullable();
             $table->string('field_id')->nullable();
 
             $table->string('type')->nullable();
